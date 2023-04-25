@@ -22,7 +22,7 @@ import com.spring.ctc.goods.GoodsVO;
 public class GoodsFlightControllerImpl implements GoodsFlightController{
 	@Autowired
 	private GoodsFlightService goodsflightservice;
-	
+	// 깃허브 수정
 	@Override
 	@RequestMapping(value="/goodsFlightSearch.do" ,method = {RequestMethod.GET,RequestMethod.POST})
 	public ModelAndView goodsFlightSearch(HttpServletRequest request, HttpServletResponse response) throws Exception {
